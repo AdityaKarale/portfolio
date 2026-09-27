@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aditya Karale — Senior Platform Engineer &amp; SRE</title>
+  <meta name="description" content="Platform Engineer and SRE with 4+ years at Jio Platforms. Kubernetes, ELK, Azure, OCCNXT. AZ-104 and AZ-400 certified." />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Aditya Karale" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="canonical" href="https://adityakarale.github.io/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://adityakarale.github.io/" />
+  <meta property="og:title" content="Aditya Karale — Senior Platform Engineer &amp; SRE" />
+  <meta property="og:description" content="Platform Engineer and SRE with 4+ years at Jio Platforms. Kubernetes, ELK, Azure, OCCNXT. AZ-104 and AZ-400 certified." />
+  <meta property="og:image" content="https://adityakarale.github.io/assets/images/occnxt-dashboard.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script>document.documentElement.classList.add("js");</script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Aditya Karale",
+    "jobTitle": "Senior Platform Engineer & SRE",
+    "url": "https://adityakarale.github.io/",
+    "email": "mailto:adityakarale61@gmail.com",
+    "address": { "@type": "PostalAddress", "addressLocality": "Pune", "addressRegion": "Maharashtra", "addressCountry": "IN" },
+    "worksFor": { "@type": "Organization", "name": "Jio Platforms Limited" },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "Birla Institute of Technology and Science, Pilani" },
+      { "@type": "CollegeOrUniversity", "name": "Fergusson College, Pune" }
+    ],
+    "knowsAbout": ["Kubernetes", "Site Reliability Engineering", "ELK Stack", "Elasticsearch", "Microsoft Azure", "AKS", "Terraform", "Observability", "RAG", "MCP"],
+    "sameAs": [
+      "https://www.linkedin.com/in/adityakarale",
+      "https://github.com/adityakarale"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <div class="nav__id" id="navId">
+        <a href="#top" class="nav__brand" id="navBrand" aria-label="Aditya Karale — home" aria-describedby="idCard">
+          <span class="nav__avatar">
+            <img src="assets/images/profile-photo.jpeg" alt="" width="64" height="64" decoding="async" />
+          </span>
+          <span class="nav__name">Aditya Karale</span>
+        </a>
+
+        <div class="idcard" id="idCard" role="tooltip">
+          <div class="idcard__head">
+            <img class="idcard__photo" src="assets/images/profile-photo.jpeg" alt="Aditya Karale" width="64" height="64" loading="lazy" />
+            <div>
+              <p class="idcard__name">Aditya Karale</p>
+              <p class="idcard__role">Senior Platform Engineer · SRE</p>
+              <p class="idcard__loc">
+                <span class="idcard__status"></span>Pune, Maharashtra · Open to work
+              </p>
+            </div>
+          </div>
+
+          <div class="idcard__roles">
+            <p>Open to roles</p>
+            <ul>
+              <li>DevOps</li><li>SRE</li><li>Platform</li><li>Observability</li>
+            </ul>
+          </div>
+
+          <ul class="idcard__list">
+            <li>
+              <a href="mailto:adityakarale61@gmail.com">
+                <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4.24l-8 5-8-5V6l8 5 8-5z"/></svg>
+                <span>adityakarale61@gmail.com</span>
+              </a>
+            </li>
+            <li>
+              <a href="tel:+917721879802">
+                <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2a1 1 0 011-.25 11.4 11.4 0 003.6.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.57a1 1 0 01-.25 1z"/></svg>
+                <span>+91 77218 79802</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/adityakarale" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 110-4.13 2.06 2.06 0 010 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+                <span>linkedin.com/in/adityakarale</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/adityakarale" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M12 .3a12 12 0 00-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 016 0C17.3 4.9 18.3 5.2 18.3 5.2c.7 1.6.2 2.9.1 3.2.8.8 1.3 1.9 1.3 3.1 0 4.7-2.8 5.7-5.5 6 .4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0012 .3"/></svg>
+                <span>github.com/adityakarale</span>
+              </a>
+            </li>
+          </ul>
+
+          <a class="idcard__cta" href="assets/resume/Aditya_Karale_Resume_FINAL.pdf" download>Download resume</a>
+        </div>
+      </div>
+
+      <nav class="nav__menu" id="navMenu" aria-label="Primary">
+        <ul class="nav__links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#occnxt">OCCNXT</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav__right">
+        <a class="nav__resume" href="assets/resume/Aditya_Karale_Resume_FINAL.pdf" download>
+          <svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M12 4v11m0 0l-4.5-4.5M12 15l4.5-4.5M5 19.5h14"/></svg>
+          Resume
+        </a>
+        <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navMenu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="wrap hero__inner">
+        <p class="hero__eyebrow reveal">Platform Engineering · Jio Platforms Limited</p>
+        <h1 class="hero__name reveal">Aditya Karale</h1>
+        <p class="hero__tagline reveal">
+          <span class="grad grad--hero">Reliability. At&nbsp;scale.</span>
+        </p>
+        <p class="hero__role reveal">
+          Senior <span class="rotator" id="rotator">Platform Engineer</span>
+        </p>
+        <div class="hero__cta reveal">
+          <a class="pill" href="#occnxt">Explore the work</a>
+          <a class="link-arrow" href="assets/resume/Aditya_Karale_Resume_FINAL.pdf" download>Download resume</a>
+        </div>
+      </div>
+      <a class="hero__scroll" href="#about" aria-label="Scroll to About"><span></span></a>
+    </section>
+
+    <!-- ============ ABOUT / SCRUB STATEMENT ============ -->
+    <section class="section" id="about">
+      <div class="wrap wrap--narrow">
+        <p class="eyebrow reveal">About</p>
+        <p class="scrub" data-scrub>
+          Four years keeping production alive. Sixteen Kubernetes upgrades without a single critical outage.
+          A 42-node observability platform that reads 300,000 log events every minute. And a command center that lets
+          engineers ask their infrastructure how it feels.
+        </p>
+
+        <div class="about__cols">
+          <p class="reveal">
+            I'm a Platform Engineer and SRE at Jio Platforms Limited. I own production Kubernetes lifecycle management,
+            taking clusters from v1.18 to v1.34 across DEV, QA, PPD and PROD with zero critical downtime.
+          </p>
+          <p class="reveal">
+            I run enterprise-scale ELK observability, work across Azure (AKS, ACR, private networking, Terraform,
+            Azure DevOps) and build AI-powered SRE tooling with private LLMs, RAG and MCP. I'm open to senior DevOps,
+            SRE, Platform Engineering and Observability roles.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ NUMBERS BENTO ============ -->
+    <section class="section section--tight" aria-labelledby="numbers-title">
+      <div class="wrap">
+        <h2 class="headline reveal" id="numbers-title">By the numbers.</h2>
+
+        <div class="bento">
+          <div class="tile tile--hero reveal">
+            <p class="tile__kicker">Kubernetes</p>
+            <p class="tile__num grad grad--blue"><span data-count="16">16</span>+</p>
+            <p class="tile__label">upgrade cycles, from v1.18 to v1.34.<br />Zero critical downtime.</p>
+            <div class="versions" aria-hidden="true">
+              <span>1.18</span><span>1.20</span><span>1.22</span><span>1.24</span><span>1.26</span><span>1.28</span><span>1.30</span><span>1.32</span><span class="on">1.34</span>
+            </div>
+          </div>
+          <div class="tile reveal">
+            <p class="tile__num grad grad--teal"><span data-count="42">42</span></p>
+            <p class="tile__label">node Hot-Warm ELK cluster</p>
+          </div>
+          <div class="tile reveal">
+            <p class="tile__num grad grad--purple"><span data-count="300">300</span>K</p>
+            <p class="tile__label">log events every minute</p>
+          </div>
+          <div class="tile reveal">
+            <p class="tile__num grad grad--orange"><span data-count="100">100</span>+ TB</p>
+            <p class="tile__label">of observability data</p>
+          </div>
+          <div class="tile reveal">
+            <p class="tile__num grad grad--pink"><span data-count="3500">3,500</span>+</p>
+            <p class="tile__label">APM services monitored</p>
+          </div>
+          <div class="tile tile--wide reveal">
+            <p class="tile__num grad grad--green"><span data-count="99.9" data-decimals="1">99.9</span>%+</p>
+            <p class="tile__label">availability across the observability platform</p>
+          </div>
+          <div class="tile reveal">
+            <p class="tile__num grad grad--blue">−<span data-count="35">35</span>%</p>
+            <p class="tile__label">P1 mean time to recovery</p>
+          </div>
+          <div class="tile reveal">
+            <p class="tile__num grad grad--teal"><span data-count="14">14</span>+</p>
+            <p class="tile__label">enterprise apps on OCCNXT</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ OCCNXT ============ -->
+    <section class="occnxt" id="occnxt">
+      <div class="wrap occnxt__intro">
+        <p class="eyebrow eyebrow--live reveal"><span class="live-dot"></span>In production · Flagship project</p>
+        <h2 class="display reveal">Meet <span class="grad grad--ai">OCCNXT.</span></h2>
+        <p class="lede reveal">
+          One command center for every application. Real-time health across Kubernetes, Kafka, databases, SAP and
+          external services, with no metric storage and no infrastructure changes.
+        </p>
+      </div>
+
+      <div class="zoom" data-zoom>
+        <div class="zoom__stage">
+          <div class="mock" role="img" aria-label="Illustration of the OCCNXT dashboard showing service health tiles and the AI SRE chatbot">
+            <div class="mock__bar">
+              <span class="dot dot--r"></span><span class="dot dot--y"></span><span class="dot dot--g"></span>
+              <span class="mock__url mono">occnxt / dashboard</span>
+            </div>
+            <div class="mock__body">
+              <div class="mock__tiles">
+                <div class="mtile"><small>Core Services</small><b>12/12</b><i class="ok">Healthy</i></div>
+                <div class="mtile"><small>App Services</small><b>38/39</b><i class="warn">1 Degraded</i></div>
+                <div class="mtile"><small>Avg Latency</small><b>84ms</b><i class="ok">Normal</i></div>
+                <div class="mtile"><small>Infra Usage</small><b>61%</b><i class="ok">Below 70%</i></div>
+              </div>
+              <div class="mock__main">
+                <div class="mock__grid">
+                  <div class="svc"><span class="svc__dot ok"></span>Kafka<em>51 topics · 43 groups</em></div>
+                  <div class="svc"><span class="svc__dot ok"></span>Kubernetes<em>All nodes ready</em></div>
+                  <div class="svc"><span class="svc__dot ok"></span>Redis<em>Connected</em></div>
+                  <div class="svc"><span class="svc__dot warn"></span>MongoDB<em>Replica lag 2.1s</em></div>
+                  <div class="svc"><span class="svc__dot ok"></span>MySQL<em>Healthy</em></div>
+                  <div class="svc"><span class="svc__dot ok"></span>Elasticsearch<em>Cluster green</em></div>
+                  <div class="svc"><span class="svc__dot ok"></span>Oracle<em>Healthy</em></div>
+                  <div class="svc"><span class="svc__dot ok"></span>SAP<em>Reachable</em></div>
+                  <div class="svc"><span class="svc__dot ok"></span>External APIs<em>200 OK</em></div>
+                </div>
+                <div class="mock__chat">
+                  <p class="mock__chat-title">AI SRE Assistant</p>
+                  <p class="q">Is my application healthy right now?</p>
+                  <p class="a">All 9 dependencies are healthy. Kafka consumer lag is within limits across 43 groups. MongoDB replica lag is slightly elevated at 2.1s. The runbook suggests checking oplog sizing.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrap">
+        <div class="features">
+          <article class="feature feature--span reveal">
+            <p class="feature__kicker">Unified awareness</p>
+            <h3>Six service categories. <span class="muted">One view.</span></h3>
+            <p>Core Technical, Application, User Journey, External, Vendor and Infra Usage services, in a single business-level dashboard that surfaces degradation before users notice.</p>
+          </article>
+          <article class="feature reveal">
+            <p class="feature__kicker">SRE Check engine</p>
+            <h3>One click. <span class="muted">Pass or fail.</span></h3>
+            <p>Automated health checks for Kafka, Kubernetes, Redis, MongoDB, MySQL, Oracle and Elasticsearch, with structured diagnostics.</p>
+          </article>
+          <article class="feature feature--ai reveal">
+            <p class="feature__kicker">AI SRE chatbot</p>
+            <h3>Ask your platform <span class="grad grad--ai">anything.</span></h3>
+            <p>A private LLM on Ollama with MCP calls into live telemetry. Plain-language questions return health summaries across the stack.</p>
+          </article>
+          <article class="feature reveal">
+            <p class="feature__kicker">RAG over runbooks</p>
+            <h3>The answer, <span class="muted">in context.</span></h3>
+            <p>On-call engineers retrieve troubleshooting guidance for Kafka, Kubernetes, MongoDB and Redis without leaving OCCNXT.</p>
+          </article>
+          <article class="feature reveal">
+            <p class="feature__kicker">Infra Usage</p>
+            <h3>70% warns. <span class="muted">85% alerts.</span></h3>
+            <p>Node-level CPU, memory, load average and disk per technology cluster, with configurable thresholds.</p>
+          </article>
+          <article class="feature feature--span reveal">
+            <p class="feature__kicker">Self-service onboarding</p>
+            <h3>14+ apps. <span class="muted">Zero tickets.</span></h3>
+            <p>CustomerFirst, FR8First, TrackFirst, PeopleFirst, JioFace, IRCMS and Finance Services, onboarded with per-app configuration, approval workflows and tenant-level RBAC.</p>
+            <ul class="chips"><li>React</li><li>Node.js</li><li>MCP</li><li>Ollama</li><li>RAG</li><li>Kafka</li><li>Kubernetes</li><li>Redis</li><li>MongoDB</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS GALLERY ============ -->
+    <section class="section" id="projects">
+      <div class="wrap">
+        <div class="gallery__head">
+          <h2 class="headline reveal">More from the platform.</h2>
+          <div class="gallery__nav">
+            <button class="round" data-gallery="prev" aria-label="Previous project">
+              <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M15.4 7.4L14 6l-6 6 6 6 1.4-1.4L10.8 12z"/></svg>
+            </button>
+            <button class="round" data-gallery="next" aria-label="Next project">
+              <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M8.6 16.6L10 18l6-6-6-6-1.4 1.4 4.6 4.6z"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery" id="gallery" tabindex="0" aria-label="Projects">
+        <article class="gcard gcard--elk">
+          <p class="gcard__kicker">Observability</p>
+          <h3>Enterprise ELK Platform</h3>
+          <p class="gcard__big grad grad--teal">42 nodes.<br />100+ TB.</p>
+          <p>A Hot-Warm ELK cluster processing ~300K log events per minute. I led the rolling upgrade from v7.4 to v9.2 with zero downtime and moved the base OS from CentOS to RHEL.</p>
+          <ul class="gcard__list">
+            <li>3,500+ APM services and 1,300+ Beats integrations</li>
+            <li>Custom Logstash pipelines, including WSO2 API Gateway</li>
+            <li>Kibana SLA dashboards; Elastic APM cut P1 MTTR by ~35%</li>
+          </ul>
+        </article>
+
+        <article class="gcard gcard--k8s">
+          <p class="gcard__kicker">Platform</p>
+          <h3>Kubernetes, 16+ upgrades</h3>
+          <p class="gcard__big grad grad--blue">v1.18 → v1.34</p>
+          <p>End-to-end lifecycle across DEV, QA, PPD and PROD over 4+ years, with zero critical downtime.</p>
+          <ul class="gcard__list">
+            <li>CNI migration from Weave to Cilium (eBPF)</li>
+            <li>CentOS to Ubuntu nodes with zero workload disruption</li>
+            <li>Docker to containerd to CRI-O; Istio v1.13 to v1.17</li>
+            <li>Velero DR with RTO under 30 minutes</li>
+            <li>Descheduler cut resource waste by ~20%</li>
+          </ul>
+        </article>
+
+        <article class="gcard gcard--ai">
+          <p class="gcard__kicker">AI / ML</p>
+          <h3>AI SRE Chatbot + RAG</h3>
+          <p class="gcard__big grad grad--ai">Private LLM.<br />Live telemetry.</p>
+          <p>Ollama connected through MCP to Kafka, Kubernetes, Redis and MongoDB, built inside OCCNXT.</p>
+          <ul class="gcard__list">
+            <li>Natural-language questions become live telemetry queries</li>
+            <li>LLM-generated health summaries across the stack</li>
+            <li>RAG over SRE runbooks, backed by a vector database</li>
+          </ul>
+        </article>
+
+        <article class="gcard gcard--azure">
+          <p class="gcard__kicker">Cloud &amp; automation</p>
+          <h3>Azure AKS, CI/CD &amp; KEDA</h3>
+          <p class="gcard__big grad grad--orange">AZ-104.<br />AZ-400.</p>
+          <p>Private AKS and ACR connectivity, Terraform and ARM provisioning, and pipelines with security scanning built in.</p>
+          <ul class="gcard__list">
+            <li>VNet segmentation, Private DNS, NAT Gateway, Bastion</li>
+            <li>KEDA ScaledObjects driven by Prometheus metrics</li>
+            <li>Azure DevOps and GitLab CI/CD with Fortify SCA</li>
+            <li>Automated kubeconfig certificate rotation</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section section--tight" id="skills">
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee__track">
+          <span>Kubernetes</span><span>Elasticsearch</span><span>Azure</span><span>Terraform</span><span>Kafka</span><span>Cilium</span><span>Prometheus</span><span>Ollama</span><span>Helm</span><span>Grafana</span><span>Velero</span><span>KEDA</span>
+          <span>Kubernetes</span><span>Elasticsearch</span><span>Azure</span><span>Terraform</span><span>Kafka</span><span>Cilium</span><span>Prometheus</span><span>Ollama</span><span>Helm</span><span>Grafana</span><span>Velero</span><span>KEDA</span>
+        </div>
+      </div>
+
+      <div class="wrap">
+        <h2 class="headline reveal">Every layer <span class="muted">of the stack.</span></h2>
+
+        <div class="skills">
+          <div class="skill reveal">
+            <h3>Cloud &amp; Azure</h3>
+            <ul class="chips"><li>Microsoft Azure</li><li>AKS</li><li>ACR</li><li>Azure VNet</li><li>Subnets</li><li>Private DNS</li><li>NAT Gateway</li><li>Azure Bastion</li><li>Azure DevOps</li><li>ARM Templates</li><li>GCP</li></ul>
+          </div>
+          <div class="skill reveal">
+            <h3>Containers &amp; Orchestration</h3>
+            <ul class="chips"><li>Kubernetes v1.18–v1.34</li><li>Docker</li><li>Helm</li><li>KEDA</li><li>Descheduler</li><li>HPA</li><li>Weave</li><li>Cilium</li><li>eBPF</li><li>RBAC</li><li>OPA / Gatekeeper</li><li>CRI-O</li><li>Istio</li></ul>
+          </div>
+          <div class="skill reveal">
+            <h3>Observability &amp; Monitoring</h3>
+            <ul class="chips"><li>Elasticsearch</li><li>Logstash</li><li>Kibana</li><li>Elastic APM</li><li>ELK v7.4–v9.2</li><li>Metricbeat</li><li>Filebeat</li><li>Prometheus</li><li>Grafana</li><li>Custom Logstash Pipelines</li></ul>
+          </div>
+          <div class="skill reveal">
+            <h3>CI/CD &amp; DevOps</h3>
+            <ul class="chips"><li>Azure DevOps Pipelines</li><li>GitLab CI/CD</li><li>GitHub</li><li>Fortify SCA</li></ul>
+          </div>
+          <div class="skill reveal">
+            <h3>Infrastructure &amp; IaC</h3>
+            <ul class="chips"><li>Terraform</li><li>Ansible</li><li>ARM Templates</li><li>Bash</li><li>Shell Scripting</li><li>Python</li></ul>
+          </div>
+          <div class="skill reveal">
+            <h3>Backup &amp; DR</h3>
+            <ul class="chips"><li>Velero</li><li>Kubernetes Backup &amp; Restore</li><li>Filesystem Replication</li></ul>
+          </div>
+          <div class="skill reveal">
+            <h3>Databases &amp; Messaging</h3>
+            <ul class="chips"><li>MySQL</li><li>MongoDB</li><li>Oracle</li><li>Redis</li><li>Kafka</li><li>Milvus</li></ul>
+          </div>
+          <div class="skill skill--ai reveal">
+            <h3>AI &amp; Platform Tooling</h3>
+            <ul class="chips"><li>Ollama</li><li>RAG Architecture</li><li>MCP</li><li>Vector Databases</li><li>AI SRE Chatbot</li><li>LLM Integration</li></ul>
+          </div>
+          <div class="skill reveal">
+            <h3>OS &amp; Systems</h3>
+            <ul class="chips"><li>Linux</li><li>RHEL</li><li>Ubuntu</li><li>CentOS</li><li>Windows Server</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section" id="experience">
+      <div class="wrap">
+        <div class="exp">
+          <div class="exp__side">
+            <p class="eyebrow reveal">Experience</p>
+            <h2 class="headline reveal">Jio Platforms Limited.</h2>
+            <p class="exp__role reveal">Assistant Manager – Platform &amp; DevOps Engineering</p>
+            <p class="muted reveal">November 2021 – Present · 4+ years<br />Navi Mumbai, Maharashtra</p>
+          </div>
+
+          <div class="accordion">
+            <details class="reveal" open>
+              <summary>Kubernetes Platform Engineering</summary>
+              <ul>
+                <li>Owned the end-to-end Kubernetes lifecycle across production and non-production clusters, sustaining 99.9%+ uptime over 4+ years.</li>
+                <li>Executed 16+ upgrade cycles from v1.18 to v1.34 with full API compatibility and zero critical downtime, coordinating parallel version tracks across DEV, QA, PPD and PROD.</li>
+                <li>Led the CNI migration from Weave to Cilium (eBPF) across DEV, QA and PPD, improving network policy enforcement, traffic routing and kernel-level observability.</li>
+                <li>Deployed Descheduler with taint- and toleration-aware eviction policies, reducing cluster resource waste by ~20%.</li>
+                <li>Implemented Velero backup and disaster recovery with point-in-time restores and RTO under 30 minutes for critical namespaces.</li>
+                <li>Directed the CentOS to Ubuntu node migration using Velero for lower environments and filesystem replication for PROD, with zero workload disruption.</li>
+                <li>Migrated container runtimes from Docker to containerd, then to CRI-O; installed Kubernetes v1.27.1 with CRI-O on GCP servers.</li>
+                <li>Upgraded the Istio service mesh from v1.13.2 to v1.17.2, improving traffic management, observability and mTLS enforcement.</li>
+                <li>Automated kubeconfig admin certificate rotation through pipelines, eliminating manual certificate expiry incidents.</li>
+              </ul>
+            </details>
+
+            <details class="reveal">
+              <summary>OCCNXT — Operation Command Center</summary>
+              <ul>
+                <li>Architected and delivered OCCNXT, giving unified real-time visibility across Core Technical, Application, User Journey, External, Vendor and Infra Usage services.</li>
+                <li>Onboarded 14+ enterprise applications including CustomerFirst, FR8First, TrackFirst, PeopleFirst, JioFace, IRCMS and Finance Services, with per-app configuration, approval workflows and tenant-level RBAC.</li>
+                <li>Built an embedded SRE Check engine for Kafka, Kubernetes, Redis, MongoDB, MySQL, Oracle and Elasticsearch, for example Kafka consumer lag detection across 43 consumer groups and 51 topics.</li>
+                <li>Implemented a node-level Infra Usage view with CPU, memory, load average and disk per cluster, using warning (70%) and unhealthy (85%) thresholds.</li>
+                <li>Engineered an AI SRE chatbot on Ollama with MCP calls, letting engineers query live telemetry in natural language.</li>
+                <li>Integrated RAG over SRE runbooks for Kafka, Kubernetes, MongoDB, Redis and more, directly inside OCCNXT.</li>
+              </ul>
+            </details>
+
+            <details class="reveal">
+              <summary>Large-Scale ELK Observability Platform</summary>
+              <ul>
+                <li>Operated a 42-node Hot-Warm ELK cluster across 100+ TB, processing ~300K log events per minute and supporting 3,500+ APM services and 1,300+ Metricbeat/Filebeat integrations at 99.9%+ availability.</li>
+                <li>Led the production ELK upgrade from v7.4 to v9.2 through rolling upgrades with zero downtime, and migrated the infrastructure from CentOS to RHEL.</li>
+                <li>Engineered custom Logstash pipelines, including dedicated WSO2 API Gateway pipelines, reducing parse latency and improving log fidelity.</li>
+                <li>Built Kibana dashboards for real-time SLA monitoring and integrated Elastic APM for distributed tracing, reducing P1 MTTR by ~35%.</li>
+              </ul>
+            </details>
+
+            <details class="reveal">
+              <summary>Azure Cloud &amp; AKS Platform Engineering</summary>
+              <ul>
+                <li>Supported enterprise AKS workloads, configuring ACR, VNet segmentation, subnets, Private DNS, NAT Gateway and Azure Bastion for private cluster and registry connectivity.</li>
+                <li>Automated Azure provisioning with Terraform and ARM Templates, and built Azure DevOps pipelines integrating AKS and ACR.</li>
+                <li>Diagnosed and resolved DNS resolution and container registry connectivity issues across AKS environments.</li>
+                <li>Upgraded Docker from v18.09.0 to v23.0.06 on Azure build servers, improving build security and runtime performance.</li>
+              </ul>
+            </details>
+
+            <details class="reveal">
+              <summary>KEDA, CI/CD, Automation &amp; Monitoring</summary>
+              <ul>
+                <li>Designed and rolled out KEDA event-driven autoscaling with Prometheus metrics, ScaledObjects, HPA behaviour policies, polling intervals and cooldown periods, validated through Grafana and Helm.</li>
+                <li>Built and maintained CI/CD pipelines on Azure DevOps and GitLab CI/CD for containerised microservices, with Fortify SCA static analysis before production promotion.</li>
+                <li>Developed automated email reports on platform component status, replacing manual stakeholder checks.</li>
+                <li>Maintained Prometheus pipelines and Grafana dashboards for resource utilisation, application health and autoscaling, with alerting for node readiness and critical service downtime.</li>
+              </ul>
+            </details>
+
+            <div class="edu">
+              <div class="edu__item reveal">
+                <p class="muted">2022 – 2026</p>
+                <h3>MTech – Software Systems</h3>
+                <p>Birla Institute of Technology and Science (BITS), Pilani</p>
+              </div>
+              <div class="edu__item reveal">
+                <p class="muted">2018 – 2021</p>
+                <h3>B.Sc. – Computer Science</h3>
+                <p>Fergusson College, Pune</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CERTIFICATIONS ============ -->
+    <section class="section section--tight" id="certifications">
+      <div class="wrap">
+        <h2 class="headline reveal">Certified. <span class="muted">Recognised.</span></h2>
+
+        <div class="certs">
+          <article class="award reveal">
+            <div class="award__star" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="40" height="40"><path fill="currentColor" d="M12 2l2.9 6.26L22 9.27l-5.2 4.73L18.18 21 12 17.27 5.82 21 7.2 14 2 9.27l7.1-1.01z"/></svg>
+            </div>
+            <p class="tile__kicker">Recognition</p>
+            <h3 class="grad grad--gold">Star Performer Award</h3>
+            <p>Recognised by senior leadership at Jio Platforms Limited for stellar performance and valuable contributions.</p>
+          </article>
+
+          <a class="cert cert--link reveal" style="--vendor:#2997FF" href="https://learn.microsoft.com/en-us/users/adityakarale-8241/credentials/afe566aca2e40593" target="_blank" rel="noopener noreferrer" aria-label="Verify AZ-104 Azure Administrator Associate credential on Microsoft Learn (opens in a new tab)">
+            <span class="cert__badge">AZ-104</span>
+            <h3>Azure Administrator Associate</h3>
+            <p>Microsoft Certified</p>
+            <span class="cert__verify">Verify credential</span>
+          </a>
+          <a class="cert cert--link reveal" style="--vendor:#2997FF" href="https://learn.microsoft.com/en-in/users/adityakarale-8241/credentials/14add54d50407f6" target="_blank" rel="noopener noreferrer" aria-label="Verify AZ-400 DevOps Engineer Expert credential on Microsoft Learn (opens in a new tab)">
+            <span class="cert__badge">AZ-400</span>
+            <h3>DevOps Engineer Expert</h3>
+            <p>Microsoft Certified</p>
+            <span class="cert__verify">Verify credential</span>
+          </a>
+          <article class="cert reveal" style="--vendor:#34C759">
+            <span class="cert__badge">GCP</span>
+            <h3>Google Cloud Platform Professional</h3>
+            <p>Jio Certified</p>
+          </article>
+          <article class="cert reveal" style="--vendor:#34C759">
+            <span class="cert__badge">AI / ML</span>
+            <h3>AI &amp; ML Foundation</h3>
+            <p>Jio Certified</p>
+          </article>
+          <article class="cert reveal" style="--vendor:#0A84FF">
+            <span class="cert__badge">K8s</span>
+            <h3>Kubernetes Specializations</h3>
+            <p>LinkedIn Learning</p>
+          </article>
+          <article class="cert reveal" style="--vendor:#FF4FA3">
+            <span class="cert__badge">Elastic</span>
+            <h3>Elastic Stack</h3>
+            <p>LinkedIn Learning</p>
+          </article>
+        </div>
+
+        <div class="extras reveal">
+          <p><span>Core competencies</span>Stakeholder communication · Agile collaboration · Problem-solving · Cross-functional support · End-to-end ownership · Mentorship</p>
+          <p><span>Languages</span>English (Professional) · Marathi (Native) · Hindi (Fluent)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contact">
+      <div class="contact__glow" aria-hidden="true"></div>
+      <div class="wrap contact__inner">
+        <h2 class="display reveal">Let's talk <span class="grad grad--hero">reliability.</span></h2>
+        <p class="lede reveal">Open to DevOps, SRE, Platform Engineering and Observability roles. Based in Pune, Maharashtra.</p>
+
+        <div class="contact__actions reveal">
+          <a class="pill pill--lg" href="mailto:adityakarale61@gmail.com">adityakarale61@gmail.com</a>
+          <a class="pill pill--lg pill--ghost" href="assets/resume/Aditya_Karale_Resume_FINAL.pdf" download>Download resume</a>
+        </div>
+        <div class="contact__links reveal">
+          <a class="link-arrow" href="https://www.linkedin.com/in/adityakarale" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a class="link-arrow" href="https://github.com/adityakarale" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p class="footer__note">
+        The OCCNXT dashboard shown on this site is an illustration and contains no real company data.
+        Metrics describe production systems I have built or operated at Jio Platforms Limited.
+      </p>
+
+      <div class="footer__cols">
+        <div class="footer__col">
+          <h2>Explore</h2>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#occnxt">OCCNXT</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h2>Career</h2>
+          <ul>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="assets/resume/Aditya_Karale_Resume_FINAL.pdf" download>Download resume</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h2>Credentials</h2>
+          <ul>
+            <li><a href="https://learn.microsoft.com/en-us/users/adityakarale-8241/credentials/afe566aca2e40593" target="_blank" rel="noopener noreferrer">AZ-104 Azure Administrator</a></li>
+            <li><a href="https://learn.microsoft.com/en-in/users/adityakarale-8241/credentials/14add54d50407f6" target="_blank" rel="noopener noreferrer">AZ-400 DevOps Engineer Expert</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h2>Connect</h2>
+          <ul>
+            <li><a href="mailto:adityakarale61@gmail.com">Email</a></li>
+            <li><a href="https://www.linkedin.com/in/adityakarale" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            <li><a href="https://github.com/adityakarale" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bar">
+        <p>Copyright © <span id="year">2026</span> Aditya Karale. All rights reserved.</p>
+        <p class="footer__meta">
+          <span>Pune, India</span>
+          <span>Built with HTML, CSS &amp; vanilla JS</span>
+          <a href="#top">Back to top ↑</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
